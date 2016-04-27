@@ -1,0 +1,12 @@
+Source: ros-indigo-ekf-localization
+Section: misc
+Priority: extra
+Maintainer: rui <rui@todo.todo>
+Build-Depends: debhelper (>= 9.0.0), libopencv-dev, ros-indigo-bfl, ros-indigo-catkin, ros-indigo-laser-geometry, ros-indigo-nav-msgs, ros-indigo-pcl-ros, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-tf, ros-indigo-tf-conversions, ros-indigo-visualization-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-ekf-localization
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libopencv-dev, ros-indigo-bfl, ros-indigo-laser-geometry, ros-indigo-nav-msgs, ros-indigo-pcl-ros, ros-indigo-sensor-msgs, ros-indigo-std-msgs, ros-indigo-tf, ros-indigo-tf-conversions, ros-indigo-visualization-msgs
+Description: The advanced_robotics package
